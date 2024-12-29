@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+        <section id="foobar_saml_customer" sortOrder="303" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="advanced" translate="label comment" type="text" sortOrder="9" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="enabled_for_toyota" type="select" sortOrder="998" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>enable group assignment for toyota only</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                    <comment>
+                        <![CDATA[Enable it for Toyota only, when enabled = custom code will do group assignment for toyota specifically, do not use group mapping on toyota]]>
+                    </comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

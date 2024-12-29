@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+	<module name="Jvdh_ToyotaSsoProcessing"/>
+    <sequence>
+        <module name="Foobar_SAML"/>
+        <module name="Jvdh_DaikinSsoProcessing"/>
+    </sequence>
+</config>
